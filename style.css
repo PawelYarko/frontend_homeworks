@@ -1,0 +1,31 @@
+* {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  margin: 20px 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.part-list {
+  font-size: 25px;
+}
+
+.list-items,
+.come-back {
+  text-decoration: none;
+  color: black;
+}
+
+.list-items:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.come-back:hover {
+  color: orange;
+  cursor: pointer;
+}
