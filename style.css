@@ -44,7 +44,7 @@ ol li {
 }
 
 .logo {
-  width: 150px;
+  max-width: 150px;
 }
 
 .header {
@@ -52,8 +52,7 @@ ol li {
   flex-direction: row;
   justify-content: space-between;
   background-color: orange;
-  padding-left: 5%;
-  padding-right: 20%;
+  padding: 0 20px 0 20px;
 }
 
 .part-list-container {
@@ -62,6 +61,7 @@ ol li {
 }
 
 .book-img {
+  width: 420px;
   margin-top: 20px;
   margin-right: 60px;
 }
@@ -83,4 +83,11 @@ ol li {
 
 .text-container {
   margin: 0 20px 0 20px;
+}
+.footer-text {
+  border-top: solid orange 5px;
+  border-bottom: solid orange 5px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
 }
