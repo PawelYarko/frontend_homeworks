@@ -12,12 +12,25 @@ h1 {
 
 .part-list {
   font-size: 25px;
+  margin-top: 60px;
 }
 
 .list-items,
 .come-back {
   text-decoration: none;
   color: black;
+}
+
+ol li {
+  padding: 15px;
+}
+
+.title-part {
+  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .list-items:hover {
@@ -28,4 +41,46 @@ h1 {
 .come-back:hover {
   color: orange;
   cursor: pointer;
+}
+
+.logo {
+  width: 150px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: orange;
+  padding-left: 5%;
+  padding-right: 20%;
+}
+
+.part-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-img {
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.part1-text,
+.part2-text,
+.part3-text,
+.part4-text,
+.part5-text,
+.part6-text,
+.part7-text,
+.part8-text {
+  margin-top: 100px;
+}
+
+.text-title-container {
+  margin-bottom: 30px;
+}
+
+.text-container {
+  margin: 0 20px 0 20px;
 }
