@@ -10,6 +10,10 @@ h1 {
   text-align: center;
 }
 
+.container {
+  min-width: 320px;
+  width: 100%;
+}
 .part-list {
   font-size: 25px;
   margin-top: 60px;
@@ -44,15 +48,12 @@ ol li {
 }
 
 .logo {
-  max-width: 150px;
+  width: 200px;
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  padding: 10px 5px 10px 5px;
   background-color: orange;
-  padding: 0 20px 0 20px;
 }
 
 .part-list-container {
@@ -61,9 +62,7 @@ ol li {
 }
 
 .book-img {
-  width: 422px;
-  margin-top: 20px;
-  margin-right: 60px;
+  width: 0;
 }
 
 .part1-text,
@@ -90,4 +89,16 @@ ol li {
   font-size: 25px;
   text-align: center;
   margin-top: 100px;
+}
+
+@media only screen and (min-width: 1100px) {
+  .container {
+    min-width: calc(1146px + 20px);
+  }
+
+  .book-img {
+    width: 422px;
+    margin-top: 20px;
+    margin-right: 60px;
+  }
 }
