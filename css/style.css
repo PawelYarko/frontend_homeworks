@@ -1,0 +1,119 @@
+* {
+  font-family: "Merriweather", serif;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 20px 20px;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  min-width: 320px;
+  width: 100%;
+}
+.part-list {
+  font-size: 25px;
+}
+
+.list-items,
+.come-back {
+  text-decoration: none;
+  color: black;
+}
+
+ol li {
+  padding: 15px;
+}
+
+.title-part {
+  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.list-items:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.come-back:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.logo {
+  width: 150px;
+}
+
+.header {
+  padding: 10px 5px 10px 5px;
+  background-color: orange;
+}
+
+.part-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-img {
+  width: 0;
+}
+
+.part1-text,
+.part2-text,
+.part3-text,
+.part4-text,
+.part5-text,
+.part6-text,
+.part7-text,
+.part8-text {
+  margin-top: 100px;
+}
+
+.arrow-up {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.text-title-container {
+  margin-bottom: 30px;
+}
+
+.text-container {
+  margin: 0 20px 0 20px;
+}
+.footer-text {
+  border-top: solid orange 5px;
+  border-bottom: solid orange 5px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    min-width: calc(1000px + 20px);
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .book-img {
+    width: 422px;
+    margin-top: 20px;
+    margin-right: 60px;
+  }
+}
