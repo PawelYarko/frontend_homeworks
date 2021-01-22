@@ -51,6 +51,10 @@ ol li {
   cursor: pointer;
 }
 
+.come-back {
+  margin-left: 20px;
+}
+
 .logo {
   width: 150px;
 }
@@ -115,5 +119,9 @@ ol li {
     width: 422px;
     margin-top: 20px;
     margin-right: 60px;
+  }
+
+  .come-back {
+    margin-left: 40px;
   }
 }
